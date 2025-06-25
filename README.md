@@ -8,9 +8,9 @@ This project automatically extracts structured metadata from academic PDFs, reas
 - Supports both digitally readable and scanned PDFs
 - Extracts abstract, keywords, authors, methodology, results, and conclusion
 - Automatically distinguishes scanned PDFs
-- OCR-based layout-aware title extraction (bounding box + height logic)
+- Explores Frame work for OCR-based layout-aware title extraction (bounding box + height logic)
 - Structured metadata in JSON + Excel
-- Stylized Streamlit UI for document upload and preview
+- Stylized Streamlit UI for feature extraction
 
 ## Streamlit App Demo
 
