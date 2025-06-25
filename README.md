@@ -5,14 +5,14 @@ This project automatically extracts structured metadata from academic PDFs, reas
 
 # Features
 
-- ✅ Supports both digitally readable and scanned PDFs
-- 🧠 Extracts abstract, keywords, authors, methodology, results, and conclusion
-- 📋 Automatically distinguishes scanned PDFs
-- 🔠 OCR-based layout-aware title extraction (bounding box + height logic)
-- 📋 Structured metadata in JSON + Excel
-- 🖼️ Stylized Streamlit UI for document upload and preview
+- Supports both digitally readable and scanned PDFs
+- Extracts abstract, keywords, authors, methodology, results, and conclusion
+- Automatically distinguishes scanned PDFs
+- OCR-based layout-aware title extraction (bounding box + height logic)
+- Structured metadata in JSON + Excel
+- Stylized Streamlit UI for document upload and preview
 
-## 🖥️ Streamlit App Demo
+## Streamlit App Demo
 
 <img src="demo_screenshot.png" alt="Streamlit Screenshot" width="700"/>
 
@@ -20,7 +20,7 @@ This project automatically extracts structured metadata from academic PDFs, reas
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 metadata_generator/
@@ -48,14 +48,14 @@ venv\Scripts\activate      # On Windows
 pip install -r requirements.txt
 ```
 
-### 🔨 System Requirements
+### System Requirements
 
 - [Tesseract OCR](https://github.com/tesseract-ocr/tesseract) (add to PATH)
 - [Poppler](http://blog.alivate.com.au/poppler-windows/) (for PDF to image conversion)
 
 ---
 
-## 🚀 Usage
+## Usage
 
 ```bash
 streamlit run webapp/app.py
@@ -65,7 +65,7 @@ Then open your browser at `http://localhost:8501`.
 
 ---
 
-## 📥 Sample Output
+## Sample Output
 
 ```json
 {
@@ -81,13 +81,13 @@ Then open your browser at `http://localhost:8501`.
 
 ---
 
-## 🧪 Key considerations
+## Key considerations
 - Forced OCR scanning in case of mixed type documents.
 - Numerous possible ways for title extraction of standard complex documents.
 - Read time, Language detection of the documents.
 - User friendly presentation of the generated Metadata
 
-## 📌 Future Scope
+## Future Scope
 
 - integrating OCR support to the Streamlit app interface
 - enabling better accuracy in extracting semantic features
