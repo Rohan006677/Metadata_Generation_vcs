@@ -80,17 +80,18 @@ Then open your browser at `http://localhost:8501`.
 ```
 
 ---
-
 ## Key considerations
-- Forced OCR scanning in case of mixed type documents.
-- Numerous possible ways for title extraction of standard complex documents.
-- Read time, Language detection of the documents.
-- User friendly presentation of the generated Metadata
+- Diverse training dataset (for digitally readable texts) to make it more robust and resilient than others.
+- Forced OCR scanning in case of mixed type documents - so that we don't loose any kind of data. 
+- Explored Numerous possible ways for title extraction of standard complex documents - extracting the group of differentiating text among top 25% of image through font size, position, boldness, colour etc.
+- Various features as Read time, Language detection, word count, authors were spent time on for better user experience. 
+- User friendly presentation of the generated Metadata 
 
 ## Future Scope
 
 - integrating OCR support to the Streamlit app interface
 - enabling better accuracy in extracting semantic features
+- Improving acccuracy over multiple datafiles (categorical approach for easier implications)
 - Deploy to Streamlit Cloud with upload history
 ---
 
