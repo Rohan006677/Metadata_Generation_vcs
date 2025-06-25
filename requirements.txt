@@ -1,0 +1,14 @@
+streamlit
+pytesseract
+pdfminer.six
+python-docx
+docx2txt
+pdf2image
+spacy
+transformers
+keybert
+nltk
+scikit-learn
+langdetect
+tqdm
+Pillow
